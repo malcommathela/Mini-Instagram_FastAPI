@@ -1,0 +1,18 @@
+[project]
+name = "mini-instagram-fastapi"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "automium-web>=0.1.1",
+    "fastapi>=0.127.0",
+    "fastapi-users>=15.0.3",
+    "fastapi-users-db-sqlalchemy>=7.0.0",
+    "imagekitio>=5.0.0",
+    "python-dotenv>=1.2.1",
+    "schemas>=0.7.1",
+    "sqlalchemy>=2.0.45",
+    "uuid>=1.30",
+    "uvicorn>=0.40.0",
+]
